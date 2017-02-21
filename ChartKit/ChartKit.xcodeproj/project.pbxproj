@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0658449F1E5BE1FF0010646F /* CKBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0658448A1E5BE1FF0010646F /* CKBarView.m */; };
+		065844A01E5BE1FF0010646F /* CKBarXaxisBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0658448C1E5BE1FF0010646F /* CKBarXaxisBarView.m */; };
+		065844A11E5BE1FF0010646F /* CKBarYaxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0658448E1E5BE1FF0010646F /* CKBarYaxisView.m */; };
+		065844A21E5BE1FF0010646F /* CKCountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 065844901E5BE1FF0010646F /* CKCountingLabel.m */; };
+		065844A31E5BE1FF0010646F /* CKGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 065844921E5BE1FF0010646F /* CKGradientLayer.m */; };
+		065844A41E5BE1FF0010646F /* CKLineProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 065844951E5BE1FF0010646F /* CKLineProgress.m */; };
+		065844A51E5BE1FF0010646F /* CKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065844971E5BE1FF0010646F /* CKLineView.m */; };
+		065844A61E5BE1FF0010646F /* CKPolylineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0658449A1E5BE1FF0010646F /* CKPolylineView.m */; };
+		065844A71E5BE1FF0010646F /* CKRoundProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0658449C1E5BE1FF0010646F /* CKRoundProgress.m */; };
+		065844A81E5BE1FF0010646F /* CKSectionProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0658449E1E5BE1FF0010646F /* CKSectionProgress.m */; };
+		065844AB1E5BE21C0010646F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 065844A91E5BE21C0010646F /* LICENSE.md */; };
+		065844AC1E5BE21C0010646F /* ChartKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 065844AA1E5BE21C0010646F /* ChartKit.podspec */; };
+		FA0C60801E4973040074F051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C607F1E4973040074F051 /* main.m */; };
+		FA0C60831E4973040074F051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C60821E4973040074F051 /* AppDelegate.m */; };
+		FA0C60861E4973040074F051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C60851E4973040074F051 /* ViewController.m */; };
+		FA0C60891E4973040074F051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0C60871E4973040074F051 /* Main.storyboard */; };
+		FA0C608B1E4973040074F051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0C608A1E4973040074F051 /* Assets.xcassets */; };
+		FA0C608E1E4973040074F051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0C608C1E4973040074F051 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065844891E5BE1FF0010646F /* CKBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBarView.h; sourceTree = "<group>"; };
+		0658448A1E5BE1FF0010646F /* CKBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBarView.m; sourceTree = "<group>"; };
+		0658448B1E5BE1FF0010646F /* CKBarXaxisBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBarXaxisBarView.h; sourceTree = "<group>"; };
+		0658448C1E5BE1FF0010646F /* CKBarXaxisBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBarXaxisBarView.m; sourceTree = "<group>"; };
+		0658448D1E5BE1FF0010646F /* CKBarYaxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBarYaxisView.h; sourceTree = "<group>"; };
+		0658448E1E5BE1FF0010646F /* CKBarYaxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBarYaxisView.m; sourceTree = "<group>"; };
+		0658448F1E5BE1FF0010646F /* CKCountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCountingLabel.h; sourceTree = "<group>"; };
+		065844901E5BE1FF0010646F /* CKCountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCountingLabel.m; sourceTree = "<group>"; };
+		065844911E5BE1FF0010646F /* CKGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKGradientLayer.h; sourceTree = "<group>"; };
+		065844921E5BE1FF0010646F /* CKGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKGradientLayer.m; sourceTree = "<group>"; };
+		065844931E5BE1FF0010646F /* CKHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKHeader.h; sourceTree = "<group>"; };
+		065844941E5BE1FF0010646F /* CKLineProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLineProgress.h; sourceTree = "<group>"; };
+		065844951E5BE1FF0010646F /* CKLineProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKLineProgress.m; sourceTree = "<group>"; };
+		065844961E5BE1FF0010646F /* CKLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLineView.h; sourceTree = "<group>"; };
+		065844971E5BE1FF0010646F /* CKLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKLineView.m; sourceTree = "<group>"; };
+		065844981E5BE1FF0010646F /* CKMarocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMarocs.h; sourceTree = "<group>"; };
+		065844991E5BE1FF0010646F /* CKPolylineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPolylineView.h; sourceTree = "<group>"; };
+		0658449A1E5BE1FF0010646F /* CKPolylineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPolylineView.m; sourceTree = "<group>"; };
+		0658449B1E5BE1FF0010646F /* CKRoundProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRoundProgress.h; sourceTree = "<group>"; };
+		0658449C1E5BE1FF0010646F /* CKRoundProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRoundProgress.m; sourceTree = "<group>"; };
+		0658449D1E5BE1FF0010646F /* CKSectionProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSectionProgress.h; sourceTree = "<group>"; };
+		0658449E1E5BE1FF0010646F /* CKSectionProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSectionProgress.m; sourceTree = "<group>"; };
+		065844A91E5BE21C0010646F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		065844AA1E5BE21C0010646F /* ChartKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ChartKit.podspec; path = ../ChartKit.podspec; sourceTree = "<group>"; };
+		FA0C607B1E4973040074F051 /* ChartKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C607F1E4973040074F051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0C60811E4973040074F051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA0C60821E4973040074F051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA0C60841E4973040074F051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA0C60851E4973040074F051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA0C60881E4973040074F051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0C608A1E4973040074F051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0C608D1E4973040074F051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0C608F1E4973040074F051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0C60781E4973040074F051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065844881E5BE1FF0010646F /* CK */ = {
+			isa = PBXGroup;
+			children = (
+				065844891E5BE1FF0010646F /* CKBarView.h */,
+				0658448A1E5BE1FF0010646F /* CKBarView.m */,
+				0658448B1E5BE1FF0010646F /* CKBarXaxisBarView.h */,
+				0658448C1E5BE1FF0010646F /* CKBarXaxisBarView.m */,
+				0658448D1E5BE1FF0010646F /* CKBarYaxisView.h */,
+				0658448E1E5BE1FF0010646F /* CKBarYaxisView.m */,
+				0658448F1E5BE1FF0010646F /* CKCountingLabel.h */,
+				065844901E5BE1FF0010646F /* CKCountingLabel.m */,
+				065844911E5BE1FF0010646F /* CKGradientLayer.h */,
+				065844921E5BE1FF0010646F /* CKGradientLayer.m */,
+				065844931E5BE1FF0010646F /* CKHeader.h */,
+				065844941E5BE1FF0010646F /* CKLineProgress.h */,
+				065844951E5BE1FF0010646F /* CKLineProgress.m */,
+				065844961E5BE1FF0010646F /* CKLineView.h */,
+				065844971E5BE1FF0010646F /* CKLineView.m */,
+				065844981E5BE1FF0010646F /* CKMarocs.h */,
+				065844991E5BE1FF0010646F /* CKPolylineView.h */,
+				0658449A1E5BE1FF0010646F /* CKPolylineView.m */,
+				0658449B1E5BE1FF0010646F /* CKRoundProgress.h */,
+				0658449C1E5BE1FF0010646F /* CKRoundProgress.m */,
+				0658449D1E5BE1FF0010646F /* CKSectionProgress.h */,
+				0658449E1E5BE1FF0010646F /* CKSectionProgress.m */,
+			);
+			name = CK;
+			path = ../../CK;
+			sourceTree = "<group>";
+		};
+		FA0C60721E4973040074F051 = {
+			isa = PBXGroup;
+			children = (
+				065844A91E5BE21C0010646F /* LICENSE.md */,
+				065844AA1E5BE21C0010646F /* ChartKit.podspec */,
+				FA0C607D1E4973040074F051 /* ChartKit */,
+				FA0C607C1E4973040074F051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0C607C1E4973040074F051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C607B1E4973040074F051 /* ChartKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0C607D1E4973040074F051 /* ChartKit */ = {
+			isa = PBXGroup;
+			children = (
+				065844881E5BE1FF0010646F /* CK */,
+				FA0C60811E4973040074F051 /* AppDelegate.h */,
+				FA0C60821E4973040074F051 /* AppDelegate.m */,
+				FA0C60841E4973040074F051 /* ViewController.h */,
+				FA0C60851E4973040074F051 /* ViewController.m */,
+				FA0C60871E4973040074F051 /* Main.storyboard */,
+				FA0C608A1E4973040074F051 /* Assets.xcassets */,
+				FA0C608C1E4973040074F051 /* LaunchScreen.storyboard */,
+				FA0C608F1E4973040074F051 /* Info.plist */,
+				FA0C607E1E4973040074F051 /* Supporting Files */,
+			);
+			path = ChartKit;
+			sourceTree = "<group>";
+		};
+		FA0C607E1E4973040074F051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C607F1E4973040074F051 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0C607A1E4973040074F051 /* ChartKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C60921E4973040074F051 /* Build configuration list for PBXNativeTarget "ChartKit" */;
+			buildPhases = (
+				FA0C60771E4973040074F051 /* Sources */,
+				FA0C60781E4973040074F051 /* Frameworks */,
+				FA0C60791E4973040074F051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartKit;
+			productName = ChartKit;
+			productReference = FA0C607B1E4973040074F051 /* ChartKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0C60731E4973040074F051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yxiang;
+				TargetAttributes = {
+					FA0C607A1E4973040074F051 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA0C60761E4973040074F051 /* Build configuration list for PBXProject "ChartKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0C60721E4973040074F051;
+			productRefGroup = FA0C607C1E4973040074F051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0C607A1E4973040074F051 /* ChartKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0C60791E4973040074F051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0C608E1E4973040074F051 /* LaunchScreen.storyboard in Resources */,
+				065844AC1E5BE21C0010646F /* ChartKit.podspec in Resources */,
+				FA0C608B1E4973040074F051 /* Assets.xcassets in Resources */,
+				FA0C60891E4973040074F051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0C60771E4973040074F051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0658449F1E5BE1FF0010646F /* CKBarView.m in Sources */,
+				065844A11E5BE1FF0010646F /* CKBarYaxisView.m in Sources */,
+				065844A51E5BE1FF0010646F /* CKLineView.m in Sources */,
+				FA0C60861E4973040074F051 /* ViewController.m in Sources */,
+				065844A41E5BE1FF0010646F /* CKLineProgress.m in Sources */,
+				065844A21E5BE1FF0010646F /* CKCountingLabel.m in Sources */,
+				065844AB1E5BE21C0010646F /* LICENSE.md in Sources */,
+				065844A01E5BE1FF0010646F /* CKBarXaxisBarView.m in Sources */,
+				065844A71E5BE1FF0010646F /* CKRoundProgress.m in Sources */,
+				065844A81E5BE1FF0010646F /* CKSectionProgress.m in Sources */,
+				065844A31E5BE1FF0010646F /* CKGradientLayer.m in Sources */,
+				065844A61E5BE1FF0010646F /* CKPolylineView.m in Sources */,
+				FA0C60831E4973040074F051 /* AppDelegate.m in Sources */,
+				FA0C60801E4973040074F051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA0C60871E4973040074F051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0C60881E4973040074F051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0C608C1E4973040074F051 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0C608D1E4973040074F051 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0C60901E4973040074F051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA0C60911E4973040074F051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0C60931E4973040074F051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChartKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxiang.ChartKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA0C60941E4973040074F051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChartKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxiang.ChartKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0C60761E4973040074F051 /* Build configuration list for PBXProject "ChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C60901E4973040074F051 /* Debug */,
+				FA0C60911E4973040074F051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0C60921E4973040074F051 /* Build configuration list for PBXNativeTarget "ChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C60931E4973040074F051 /* Debug */,
+				FA0C60941E4973040074F051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0C60731E4973040074F051 /* Project object */;
+}
